@@ -237,7 +237,7 @@ class NLPApp:
         self.ner_input = Entry(self.root, width=50)
         self.ner_input.pack(pady=(5, 10), ipady=4)
 
-        ner_btn = Button(self.root, text='Analyze Emotion', command=self.do_ner_analysis)
+        ner_btn = Button(self.root, text='Analyze Names', command=self.do_ner_analysis)
         ner_btn.pack(pady=(10, 10))
 
         self.ner_result = Label(self.root, text='',bg='#34495E',fg='white')
@@ -257,6 +257,8 @@ class NLPApp:
             print(txt)
         self.ner_result['text']=txt
 
+    def image_to_text_gui(self):
+        pass
     
 
 
