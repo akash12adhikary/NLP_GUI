@@ -260,8 +260,8 @@ class NLPApp:
     def image_to_text_gui(self):
         pass
     def demo(s):
-        return s+40
-        
+        return s+67
+
     
 
 
